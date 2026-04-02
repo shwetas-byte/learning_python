@@ -32,9 +32,40 @@
 
 # s=input("Enter your name:")
 # ch=input("Enter any character:")
-print(input("Enter your name:").count(input("Enter any character:")))
-# print(f'Startswith of {s} is {s.startswith()}')
+# print(input("Enter your name:").count(input("Enter any character:")))
 
-# print(f'Endswith of {s} is {s.endswith()}')
 
-# print(f'Split of {s} is {s.split()}')
+# s="This is python class"
+# print(s.split())
+# print(s.split('p'))
+# print(s.split(' ',2))
+# print(s.split(' ',0))
+# print(input("Enter any string:").split(input("Enter start point:"),int(input("Enter no. of times you want to split:"))))
+
+
+# s1='Python'
+# s2='Java'
+# s3='PHP'
+# # x=','.join(s1,s2,s3)    error ayega kyuki join me ek hi argument de skte haii
+# x='+'.join([s1,s2,s3])    #list me dena pdega isliye
+# print(x,type(x))
+
+# s='!!!Python!!!'
+# print(s.strip('!'))
+# print(s.lstrip('!'))
+# print(s.rstrip('!'))
+
+
+# s="Learning Python"
+# print(s.startswith('Lear'))
+
+
+# s="Learning Python"
+# print(s.endswith('on'))
+
+
+
+# print(input("Enter any string:").isalnum())
+# print(input("Enter any string:").isalpha())
+# print(input("Enter any string:").isascii())
+# print(input("Enter any string:").isdecimal())
