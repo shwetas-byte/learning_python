@@ -33,11 +33,24 @@
 # print(l)
 
 # 4.extend--add multiple elements at last position
+# l=eval(input("Enter any list:"))
+# print(l)
+# l.extend(["shweta","pihu","pranjal"])
+# print(l)
 
-# 5.insert--add single element at targeted position
+
+# 5.insert--add single element at targeted positione
+# l=eval(input("Enter any list:"))
+# print(l)
+# l.insert(3,'shweta')
+# print(l)
+
 
 # 6.pop--remove element from targeted indexing if not given by default len-1
-
+# l=eval(input("Enter any list:"))
+# print(l)
+# l.pop(3)
+# print(l)
 # 7.remove-remove particular element
 
 # 8.sort--arrange in ascending order
