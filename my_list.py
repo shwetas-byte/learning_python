@@ -24,6 +24,10 @@
 # print(l)
 # l.clear()
 # print(l)
+# l=eval(input("Enter any list:"))
+# l.clear()
+# print(l)
+# del l memeory se htane ke liye
 
 
 # 3.append--add single element at last position
@@ -31,19 +35,30 @@
 # print(l)
 # l.append('java')
 # print(l)
+# l1=eval(input("Enter any list:"))
+# l1.append(eval(input("Enter element:")))
+# print(l1)
+
 
 # 4.extend--add multiple elements at last position
 # l=eval(input("Enter any list:"))
 # print(l)
 # l.extend(["shweta","pihu","pranjal"])
 # print(l)
+# l1=eval(input("Enter any list:"))
+# l1.extend(eval(input("Enter element:")))
+# print(l1)
 
 
-# 5.insert--add single element at targeted positione
+
+# 5.insert--add single element at targeted positione--position out of range to end me add krega
 # l=eval(input("Enter any list:"))
 # print(l)
 # l.insert(3,'shweta')
 # print(l)
+# l1=eval(input("Enter any list:"))
+# l1.insert(int(input("Enter indexing:")),eval(input("Enter element:")))
+# print(l1)
 
 
 # 6.pop--remove element from targeted indexing if not given by default len-1
@@ -51,11 +66,28 @@
 # print(l)
 # l.pop(3)
 # print(l)
+# l1=eval(input("Enter any list:"))
+# l1.pop()
+# print(l1)
+# l1.pop(1)
+# print(l1)
+
+
 # 7.remove-remove particular element
+# l1=eval(input("Enter any list:"))
+# l1.remove(eval(input("Enter element to remove:")))
+# print(l1)
 
 # 8.sort--arrange in ascending order
 
 # 9.reverse()--reverse out all the index position
 
 
+# 10. index(element,start,stop) minimum 1 argument
 
+
+# 11. count()-no. of times element occured/frequency of element
+
+
+
+ 
