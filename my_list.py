@@ -79,7 +79,9 @@
 # print(l1)
 
 # 8.sort--arrange in ascending order
-
+# l=eval(input("Enter any list:"))
+# l.sort(reverse=True)
+# print(l)
 # 9.reverse()--reverse out all the index position
 
 
