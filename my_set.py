@@ -69,6 +69,50 @@
 # print(s)
 
 # 10.disjoint()
-s={1,2,3,4,5,6,7,8}
-s2={4,5,6,7}
-print(s.isdisjoint(s2))
+# s={1,2,3,4,5,6,7,8}
+# s2={4,5,6,7}
+# print(s.isdisjoint(s2))
+
+# methods work on single set--only immutable data can add in set
+
+# 1.add()
+# s={10,20,'python','java'}
+# print(s.add(eval(input("Enter any element:"))))
+# print(s)
+
+# 2.update()-immutabole elements alg alg krke update krega jaise tuple me 3 element diye h toh 3 new element add krega naki pura tuple jbki add me sirf ek puri tuple ya string add hogi
+# s={10,20,'python','java'}
+# print(s.update(eval(input("Enter any element:"))))
+# print(s)
+
+# 3.remove()--agr vo element nahi rha toh error de dega
+# s={10,20,'python','java'}
+# print(s.remove(eval(input("Enter any element:"))))
+# print(s)
+# print(s.remove(eval(input("Enter any element:"))))
+# print(s)
+
+
+# 4.discard()--agr vo elemnt nahi rha toh age bd jayega or rha toh remove kr dega
+# s={10,20,'python','java'}
+# print(s.discard(eval(input("Enter any element:"))))
+# print(s)
+# print(s.discard(eval(input("Enter any element:"))))
+# print(s)
+
+
+# 5.pop()
+# s={10,20,'python','java'}
+# print(s.pop())
+# print(s)
+
+# 6.clear()--o/p set() curly braces isliye nahi kyuki {} empty curly braces dict denote krta  hai
+# s={10,20,'python','java'}
+# print(s.clear())
+# print(s)
+
+# 7.copy()
+# s={10,20,'python','java'}
+# s1=s.copy()
+# print(s,s1)
+# print(id(s),id(s1))
