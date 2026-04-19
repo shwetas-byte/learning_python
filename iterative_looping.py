@@ -64,5 +64,59 @@
 #     i+=1
 # print(mul)
 
+# n=eval(input("Enter terminating point:"))
+# i=1
+# while i<=n:
+#     if(i<n):
+#         if(i%2==0):
+#             print(i,end=',')
+#     else:
+#         if(i%2==0):
+#             print(i)
+#     i+=1
+
+# n=eval(input("Enter terminating point:"))
+# sum,i=0,2   
+# while i<=n:
+#     sum+=i
+#     if(i<n):
+#        print(i,end='+') 
+#     else:
+#         print(i,end='=')
+#     i+=2
+# print(sum)
+
+# n=eval(input("Enter terminating point:"))
+# mul,i=1,2
+# while i<=n:
+#     mul*=i
+#     if(i<n):
+#         print(i,end='*')
+#     else:
+#         print(i,end='=')
+#     i+=2
+# print(mul)
 
 
+
+# n=eval(input("Enter terminating point:"))
+# sum,i=0,1   
+# while i<=n:
+#     sum+=i
+#     if(i<n-1):
+#        print(i,end='+') 
+#     else:
+#         print(i,end='=')
+#     i+=2
+# print(sum)
+
+n=eval(input("Enter terminating point:"))
+mul,i=1,1   
+while i<=n:
+    mul*=i
+    if(i<n-1):
+       print(i,end='*') 
+    else:
+        print(i,end='=')
+    i+=2
+print(mul)
