@@ -145,13 +145,60 @@
 #     print("not a pallindrome")
 
 
-n=eval(input("Enter any  number:"))
-rev,x=0,n
-while n>0:
-    ld=n%10
-    rev=rev*10+ld
-    n=n//10
-if x==rev:
-    print("Pallindrone")
-else:
-    print("not a pallindrone")
+# n=eval(input("Enter any  number:"))
+# rev,x=0,n
+# while n>0:
+#     ld=n%10
+#     rev=rev*10+ld
+#     n=n//10
+# if x==rev:
+#     print("Pallindrone")
+# else:
+#     print("not a pallindrone")
+
+# pattern
+# *****
+# *****
+# *****
+# *****
+# *****
+# n=int(input("Enter any number:"))
+# i=1
+# while i<=n:
+#     print('*'*n)
+#     i+=1
+
+
+# *
+# **
+# ***
+# ****
+# *****
+# n=int(input("Enter any number:"))
+# i=1
+# while i<=n:
+#     print('*'*i+''*(n-i))
+#     i+=1
+
+#     *
+#    **
+#   ***
+#  ****
+# *****
+# n=int(input("Enter any number:"))
+# i=1
+# while i<=n:
+#     print(' '*(n-i)+'*'*i)
+#     i+=1
+
+
+#     * 
+#    * * 
+#   * * * 
+#  * * * * 
+# * * * * * 
+# n=int(input("Enter any number:"))
+# i=1
+# while i<=n:
+#     print(' '*(n-i)+'* '*i)
+#     i+=1
