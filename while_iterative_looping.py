@@ -110,13 +110,48 @@
 #     i+=2
 # print(sum)
 
-n=eval(input("Enter terminating point:"))
-mul,i=1,1   
-while i<=n:
-    mul*=i
-    if(i<n-1):
-       print(i,end='*') 
-    else:
-        print(i,end='=')
-    i+=2
-print(mul)
+# n=eval(input("Enter terminating point:"))
+# mul,i=1,1   
+# while i<=n:
+#     mul*=i
+#     if(i<n-1):
+#        print(i,end='*') 
+#     else:
+#         print(i,end='=')
+#     i+=2
+# print(mul)
+
+# Armstrong no.
+# num=eval(input("Enter any number:"))
+# temp,original,td,sum=num,num,0,0
+# while num>0:
+#     td+=1
+#     num=num//10
+# while temp>0:
+#     ld=temp%10
+#     sum+=ld**td
+#     temp=temp//10
+# if(original==sum):
+#     print(f'{original} is a armstrong number')
+# else:
+#     print(f'{original} is not a armstrong number')
+
+# pallindron no.
+# for string
+# n=input("Enter any string:")
+# if n==n[::-1]:
+#     print("Pallindrone")
+# else:
+#     print("not a pallindrome")
+
+
+n=eval(input("Enter any  number:"))
+rev,x=0,n
+while n>0:
+    ld=n%10
+    rev=rev*10+ld
+    n=n//10
+if x==rev:
+    print("Pallindrone")
+else:
+    print("not a pallindrone")
