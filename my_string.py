@@ -1,3 +1,14 @@
+# # character to ascci:ord()
+# # ascci to character:chr()
+# s=input("Enter any character:")
+# x=ord(s)
+# # print(x)
+# y=x+2
+# # print(y)
+# print(chr(y))
+
+# print(chr(ord(input("Enter any character:"))+2))
+
 # s=input("Enter your name:")
 # print(s)
 # print(f'Type of {s} is {type(s)}')
