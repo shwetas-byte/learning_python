@@ -43,6 +43,14 @@
 #         print(i,end='=')
 #     i+=1
     
+# while i<=n:
+#     sum+=i
+#     if i<n:
+#         print(i,end='+')
+#     else:
+#         print(i,end='=',)
+#     i+=1
+# print(sum)
 
 
 # n=eval(input("Enter terminating point:"))
