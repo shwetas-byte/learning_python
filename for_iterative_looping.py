@@ -57,3 +57,14 @@
 
 # for i in d:
 #     print(d[i])
+
+
+# s={10,20,30,30}
+# for i in s:
+#     print(i)
+
+n=int(input("enter any number:"))
+for i in range(1,n+1):
+    # print('*'*i+''*(n-i))
+    # print(' '*(n-i)+'*'*i)
+    # print(' '*(n-i)+'* '*i)
