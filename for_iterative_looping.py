@@ -174,5 +174,16 @@
     
 #     print(' ' * (n - i) + row)
 
-
-n=int(in)
+# EDCBA
+# IHGF 
+# LKJ  
+# NM   
+# O 
+# n=int(input('enter no.of rows you want:'))
+# x='A'
+# for i in range(n,0,-1):
+#     row=''
+#     for j in range(i):
+#         row=x+row
+#         x=chr(ord(x)+1)
+#     print(row+' '*(n-i))
