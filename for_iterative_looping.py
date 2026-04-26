@@ -156,10 +156,23 @@
 #         x=chr(ord(x)+1)       
 #     print()
 
-n=int(input("Enter no. of rows you want:"))
-x='A'
-for i in range(1,n+1):
-    for _ in range(1,i+1):
-        print(' '*(n-i)+x , end='')
-        x=chr(ord(x)+1)
-    print()
+
+
+#     A
+#    CB
+#   FED
+#  JIHG
+# ONMLK
+# n = int(input("Enter no. of rows you want: "))
+# x = 'A'
+# for i in range(1, n + 1):
+#     row = ''
+    
+#     for _ in range(i):
+#         row = x + row
+#         x = chr(ord(x) + 1)
+    
+#     print(' ' * (n - i) + row)
+
+
+n=int(in)
