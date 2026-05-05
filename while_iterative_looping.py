@@ -1,3 +1,7 @@
+# sequential statement disadvantage: puri line of code execut hote hai apne hisab se nahi hota run
+#control statement disadvantage:- unable to work discontinuous in iterattive statement
+
+
 # iterative--to avoid repetition of code for continupus program we use iterative statement
 # while--infinite iteration
 # for--finite iteration,,collection data type

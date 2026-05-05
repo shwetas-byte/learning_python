@@ -42,9 +42,10 @@
 # print("Hello")
 
 # n=int(input("Enter any integer:"))
-for i in range(1,10):
-    if i==8:
-        break
-    else:
-        print(i)
-print('hello')
+# for i in range(1,10):
+#     if i==8:
+#         break
+#     else:
+#         print(i)
+# print('hello')
+
