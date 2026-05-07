@@ -63,7 +63,7 @@ def show(x,y,z):
 # show()   #show() missing 3 required positional arguments: 'x', 'y', and 'z'---|
 # show(10)   #show() missing 2 required positional arguments: 'y' and 'z'       |---- default positional argument
 # show(10,20)   #show() missing 1 required positional argument: 'z'-------------|
-# show(10,20,30,40)  #show() takes 3 positional arguments but 4 were given------|-----variable length
+# show(10,20,30,40)  #show() takes 3 positional arguments but 4 were given------|-----variable length argument
 
 
 
