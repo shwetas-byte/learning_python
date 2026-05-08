@@ -106,3 +106,48 @@
 #         print(i)
 # n=eval(input('enter how many natural no. you want:'))
 # natural_num(n)
+
+
+# 4.Key word argument
+# def add(x,y,z):
+#     print('x:',x)
+#     print('y:',y)
+#     print('z:',z)
+# add(y=20,x=2,z=100)
+# add()  #missing 3 required positional arguments: 'x', 'y', and 'z'     ---|
+# add(x=10)  #Vmissing 2 required positional arguments: 'y' and 'z          |---- default key-word argument
+# add(x=10,y=20)   #missing 1 required positional argument: 'z'-------------|
+# add(x=10,y=20,z=30,t=40)   #got an unexpected keyword argument 't'  ------|-----variable length key-word argument
+
+
+
+# 5.default key-word argument
+# def add(x=0,y=0,z=0):
+#     print('x:',x)
+#     print('y:',y)
+#     print('z:',z)
+# add()
+# add(x=10)
+# add(x=20,y=30)
+# add(x=20,y=30,z=40)
+
+
+# 6.variable length key-word argument
+# def add(**kwargs):
+#     print(kwargs)
+#     print(type(kwargs))
+# add()
+# add(x=10,y=20,z=30,r=40)
+
+
+# def add(**kwargs):
+#     sum=0
+#     for i in kwargs:
+#         sum+=kwargs[i]
+#     print(sum)
+# di=eval(input("Enter the values for sum:"))
+# # add(x=10,y=20,z=30)
+# add(**di)
+
+
+# summary:- def fun_name(positional,default_positional,variable-length positional arg,keyword arg,default key-word,variable length key-word arg)
