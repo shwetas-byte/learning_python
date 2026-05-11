@@ -140,6 +140,7 @@
 # add(x=10,y=20,z=30,r=40)
 
 
+
 # def add(**kwargs):
 #     sum=0
 #     for i in kwargs:
@@ -150,4 +151,4 @@
 # add(**di)
 
 
-# summary:- def fun_name(positional,default_positional,variable-length positional arg,keyword arg,default key-word,variable length key-word arg)
+#summary:- def fun_name(positional,default_positional,variable-length positional arg,keyword arg,default key-word,variable length key-word arg)
