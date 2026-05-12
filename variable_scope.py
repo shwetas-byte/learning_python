@@ -38,4 +38,20 @@
 #     print(x)
 #     print(globals()['x'])
 # add()
+ 
+
+# if,elif,else,try,except,while,for -- do not create any scope
+# function,class -- create newscope
+a=int(input("Enter any nymber:"))
+
+if a>0:
+    x=10
+    # print(x)
+elif a<0 :
+    x=20
+    # print(y)
+else:
+    x=40
+print(x)
+
 
