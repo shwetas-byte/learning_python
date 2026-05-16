@@ -1,5 +1,7 @@
 # if--independent keyword bcz condition true block execute otherwise block doesn't execute
 
+
+
 # single-condition question
 # 1.no. is even or odd
 n=eval(input("Enter any number:"))
