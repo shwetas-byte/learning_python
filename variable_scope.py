@@ -40,6 +40,9 @@
 # add()
  
 
+
+ 
+
 # if,elif,else,try,except,while,for -- do not create any scope
 # function,class -- create newscope
 a=int(input("Enter any nymber:"))
