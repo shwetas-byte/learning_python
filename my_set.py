@@ -111,8 +111,8 @@
 # print(s.clear())
 # print(s)
 
-7.copy()
-s={10,20,'python','java'}
-s1=s.copy()
-print(s,s1)
-print(id(s),id(s1))
+# 7.copy()
+# s={10,20,'python','java'}
+# s1=s.copy()
+# print(s,s1)
+# print(id(s),id(s1))
