@@ -1,11 +1,11 @@
 # map() --create objects
 # l1=[1,2,3,4]
 # l2=[5,6,7,8]
-# l3=[1,2,3,4]
+# l3=[1,2,3]
 # def sum(n1,n2,n3):
 #     return n1+n2+n3
-# # res=map(sum,l1,l2,l3)
-# # print(res)   #returns only memory address
+# res=map(sum,l1,l2,l3)
+# print(res)   #returns only memory address
 # res=list(map(sum,l1,l2,l3))
 # print(res)
 # print(list(res))
@@ -40,7 +40,7 @@ import functools
 # l=[1,2,3,4,5]
 # def add(sum,a):
 #     return sum+a
-# # print(functools.reduce(add,l))    #isme ye first time me do value uthayega because default value nahi di hai
+# print(functools.reduce(add,l))    #isme ye first time me do value uthayega because default value nahi di hai
 # print(functools.reduce(add,l,0))
 
 # max value

@@ -91,5 +91,19 @@
 # 11. count()-no. of times element occured/frequency of element
 
 
+# li =[10,20,30,40,70,80]
+# mean=sum(li)//len(li)
+# print(mean)
 
- 
+# data=[10,20,30,40,50]
+# a=len(data)//2
+# meadian=data[a]
+# print(meadian)
+
+# data=eval(input("Enter even no. od data in list:"))
+# data.sort()
+# print(data)
+# a=len(data)//2
+# print(a)
+# median=(data[a]+data[a-1])//2
+# print(median)

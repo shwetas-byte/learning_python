@@ -1,7 +1,7 @@
 # lambda--a function having no name is called lambda function it is made to use at a time only once 
 # by default isme value return hoti hai isme return nahi likhte hai
 # x=lambda a,b:a+b
-# # x(5,10)
+# x(5,10)
 # print(x(5,10))
 
 # x=lambda a:print(a**2)

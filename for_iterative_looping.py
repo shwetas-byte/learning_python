@@ -8,9 +8,9 @@
 # print(chr(y))
 
 # s=input("Enter any string:")
-# s=''
+# s1=''
 # for ch in s:
-    # print(chr(ord(ch)+1))
+#     print(chr(ord(ch)+1))
 #     s1=s1+chr(ord(ch)+1)
 # print(s1)
 
@@ -42,8 +42,8 @@
 
 # d=eval(input("Enter any dictionary:"))
 # for i in d:
-    # print(i)
-    # print(i,'=',d[i])
+#     print(i)
+#     print(i,'=',d[i])
 
 # d=eval(input("Enter any dictionary:"))
 # for i in d.keys():

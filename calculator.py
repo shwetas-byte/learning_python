@@ -8,13 +8,13 @@ while True:
             l=[]
             sum=0
             for _ in range(1,x+1):
-                number=int(input(f'Enter {_} number:'))
+                number=eval(input(f'Enter {_} number:'))
                 l.append(number)
                 sum+=number
             print(f'Addition of given number {l} is {sum}')
 
         elif n==2:
-            x=int(input('Enter how many you want to subtract:'))
+            x=eval(input('Enter how many you want to subtract:'))
             l=[]
             for _ in range(1,x+1):
                 number=int(input(f'Enter {_} number:'))
@@ -24,7 +24,7 @@ while True:
             print(f'Subtraction of given number{l} is {sub}')
 
         elif n==3:
-            x=int(input("Enter how many number you want to multiply:"))
+            x=eval(input("Enter how many number you want to multiply:"))
             l=[]
             mul=1
             for i in range(1,x+1):

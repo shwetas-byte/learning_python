@@ -1,4 +1,20 @@
+# user defined:
+# function without return value(no return function):
+# 1.without parameter -- read only
+# kbhi bhi input nhi lenge iske andr work toh krega but sahi format nahi haii
+# syntax---
+# def funtion_nmae():
+#      //statement
+def show():
+    print('welcome')
+show()
+def cybrom():
 
+
+
+
+
+# 2. with parameter
 # def add():
 #     print('Addition is:',5+6)
 # add()  #onlyy display krta hai no return value
@@ -135,6 +151,7 @@
 # 6.variable length key-word argument
 # def add(**kwargs):
 #     print(kwargs)
+#     # print(sum)
 #     print(type(kwargs))
 # add()
 # add(x=10,y=20,z=30,r=40)
