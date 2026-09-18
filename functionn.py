@@ -1,20 +1,40 @@
-# user defined:
-# function without return value(no return function):
-# 1.without parameter -- read only
+# two types of function ---
+# 1. pre define function
+# 2.user defined:
+
+# 2.1 function without return value(no return function):
+
+# 1.without parameter no return-- read only function
 # kbhi bhi input nhi lenge iske andr work toh krega but sahi format nahi haii
 # syntax---
 # def funtion_nmae():
 #      //statement
-def show():
-    print('welcome')
-show()
-def cybrom():
+# def show():
+#     print('welcome')
+# show()
+# def rupees():
+#     a=10000
+#     print("ur balance is",a)
+# rupees()
 
 
+# 2. with parameter no return
+# def div(a,b):
+#     print(a//b)
+# a=int(input("Enter 1 no."))
+# b=int(input("Enter 2 no."))
+# div(a,b)
+
+def swapp(a,b):
+    a=a+b
+    b=a-b
+    a=a-b
+    print(f"a after swapping is {a} ")
+    print(f"b after swapping is {b} ")
+swapp(2,3)
 
 
-
-# 2. with parameter
+# -----neeraj sir-----
 # def add():
 #     print('Addition is:',5+6)
 # add()  #onlyy display krta hai no return value
