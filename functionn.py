@@ -25,13 +25,37 @@
 # b=int(input("Enter 2 no."))
 # div(a,b)
 
-def swapp(a,b):
-    a=a+b
-    b=a-b
-    a=a-b
-    print(f"a after swapping is {a} ")
-    print(f"b after swapping is {b} ")
-swapp(2,3)
+# def swapp(a,b):
+#     a=a+b
+#     b=a-b
+#     a=a-b
+#     print(f"a after swapping is {a} ")
+#     print(f"b after swapping is {b} ")
+# swapp(2,3)
+
+# Q1. write a program to display the sum of three digit number uswing function
+# ?Note not aloowed more than 3 digit and less than 3 digit no.
+# add =0
+# def summ(a):
+#     add=0
+#     if 100<= a <= 999:
+#         while a>0:
+#             digit=a%10
+#             add=add+digit
+#             a//=10
+#         print(add)
+#     else:
+#         print("invalid number")
+# a=int(input("Enter a 3 digit number:"))
+# summ(a)
+#Q2.Write a program to print the table of any number using function
+# def table(num):
+#     for i in range(1,11):
+#         print(f"{num} x {i} = {num*i}")
+# a=int(input("Enter a  number to print table:"))
+# table(a)
+
+
 
 
 # -----neeraj sir-----
