@@ -48,12 +48,15 @@
 #         print("invalid number")
 # a=int(input("Enter a 3 digit number:"))
 # summ(a)
-#Q2.Write a program to print the table of any number using function
-# def table(num):
-#     for i in range(1,11):
-#         print(f"{num} x {i} = {num*i}")
-# a=int(input("Enter a  number to print table:"))
-# table(a)
+Q2.Write a program to print the table of any number using function
+def table(num):
+    for i in range(1,11):
+        print(f"{num} x {i} = {num*i}")
+a=int(input("Enter a  number to print table:"))
+table(a)
+
+
+
 
 
 
