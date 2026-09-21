@@ -48,15 +48,47 @@
 #         print("invalid number")
 # a=int(input("Enter a 3 digit number:"))
 # summ(a)
-Q2.Write a program to print the table of any number using function
-def table(num):
-    for i in range(1,11):
-        print(f"{num} x {i} = {num*i}")
-a=int(input("Enter a  number to print table:"))
-table(a)
+# Q2.Write a program to print the table of any number using function
+# def table(num):
+#     for i in range(1,11):
+#         print(f"{num} x {i} = {num*i}")
+# a=int(input("Enter a  number to print table:"))
+# table(a)
 
 
+# with parameter with return
+# q1 wap to print table of any number
+# Q2 wap to print the even no.from a list
+# def even(li):   
+#     for i in li :
+#         if i%2==0:
+#             print(i)
+# size=int(input("Enter size of list:"))
+# li=[]
+# for i in range(size):
+#     v=int(input(f"Enter {i+1} value:"))
+#     li.append(v)
+# print(li)
+# even(li)
+# li=eval(input("Enter any list:"))
+# print(type(li))
+# even(li)
 
+def update(li):
+    # li1=[]
+    # for i in li:
+    #     li1.append(i+10)
+    # return li1
+    li[i]=li[i]+10
+    return li
+
+size=int(input("Enter size of list:"))
+li=[]
+for i in range(size):
+    v=int(input(f"Enter {i+1} value:"))
+    li.append(v)
+print(li)
+print(update(li))
 
 
 
