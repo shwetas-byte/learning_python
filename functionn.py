@@ -74,24 +74,57 @@
 # print(type(li))
 # even(li)
 
-def update(li):
-    # li1=[]
-    # for i in li:
-    #     li1.append(i+10)
-    # return li1
-    li[i]=li[i]+10
-    return li
+# def update(li):
+#     # li1=[]
+#     # for i in li:
+#     #     li1.append(i+10)
+#     # return li1
+#     li[i]=li[i]+10
+#     return li
 
-size=int(input("Enter size of list:"))
-li=[]
-for i in range(size):
-    v=int(input(f"Enter {i+1} value:"))
-    li.append(v)
-print(li)
-print(update(li))
+# size=int(input("Enter size of list:"))
+# li=[]
+# for i in range(size):
+#     v=int(input(f"Enter {i+1} value:"))
+#     li.append(v)
+# print(li)
+# print(update(li))
 
 
+# Que1. WAP TO RETURN THE LARGEST NUMBER FROM A TUPLE BY USIND FUNCTION
+# def larg(tu):
+#     max=0
+#     for i in range(len(tu)):
+#         if tu[i]>max:
+#             max=tu[i]
+#     return max
+# size=int(input("Enter size of tuple:"))
+# li=[]
+# for i in range(size):
+#     v=int(input(f"enter {i+1} value:"))
+#     li.append(v)
+# print(li)
+# tu=tuple(li)
+# print(tu)
+# print(larg(tu))
+#QUE2. WAP TO PRINT VOWEL FROM STRING USING FUNCTION 
+# def vowel(st):
+#     for i in st:
+#         if i in 'aeiouAEIOU':
+#             print(i)
 
+# st = input("Enter any string:")
+# vowel(st)
+# QUE3 WAP TO PRINT UPPERCASE INTO LOWERCASE OF STRING USING FUNCTION
+# def lower(st):
+#     for i in st:
+#         if i>='A' and i<='Z':
+#             print(chr(ord(i)+32),end='')
+#         else:
+#             print(i,end='')
+# st=input("Enter any string:")
+# lower(st)
+        
 
 # -----neeraj sir-----
 # def add():
