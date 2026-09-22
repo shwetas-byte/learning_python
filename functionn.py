@@ -93,10 +93,10 @@
 
 # Que1. WAP TO RETURN THE LARGEST NUMBER FROM A TUPLE BY USIND FUNCTION
 # def larg(tu):
-#     max=0
-#     for i in range(len(tu)):
-#         if tu[i]>max:
-#             max=tu[i]
+#     max=tu[0]
+#     for i in tu:
+#         if i>max:
+#             max=i
 #     return max
 # size=int(input("Enter size of tuple:"))
 # li=[]
@@ -111,19 +111,60 @@
 # def vowel(st):
 #     for i in st:
 #         if i in 'aeiouAEIOU':
-#             print(i)
+#             print(i,end='')
 
 # st = input("Enter any string:")
 # vowel(st)
+
 # QUE3 WAP TO PRINT UPPERCASE INTO LOWERCASE OF STRING USING FUNCTION
-# def lower(st):
-#     for i in st:
-#         if i>='A' and i<='Z':
-#             print(chr(ord(i)+32),end='')
-#         else:
-#             print(i,end='')
-# st=input("Enter any string:")
-# lower(st)
+def lower(st):
+    for i in st:
+        if i>='A' and i<='Z':
+            print(chr(ord(i)+32),end='')
+        else:
+            print(i,end='')
+st=input("Enter any string:")
+lower(st)
+
+# Que4. WAP TO RETURN THE LARGEST NUMBER FROM A TUPLE BY USIND FUNCTION
+# def small(tu):
+#     min=tu[0]
+#     for i in tu:
+#         if i<min:
+#             min=i
+#     return min
+# size=int(input("Enter size of tuple:"))
+# li=[]
+# for i in range(size):
+#     v=int(input(f"enter {i+1} value:"))
+#     li.append(v)
+# print(li)
+# tu=tuple(li)
+# print(tu)
+# print(small(tu))
+
+# Q5. WAP TO PRINT LARGEST AND SMALLEST NUMBER IN GIVEN ARRAY
+# def larg(tu):
+#     max=tu[0]
+#     min=tu[0]
+#     for i in tu:
+#         if i>max:
+#             max=i
+#         elif i<min:
+#             min=i
+#     print("Max=",max)
+#     print("Min=",min)
+# size=int(input("Enter size of tuple:"))
+# li=[]
+# for i in range(size):
+#     v=int(input(f"enter {i+1} value:"))
+#     li.append(v)
+# print(li)
+# tu=tuple(li)
+# tu=tuple(map(int,input("enter any tuple").split(',')))
+# print(tu)
+# larg(tu)
+
         
 
 # -----neeraj sir-----
