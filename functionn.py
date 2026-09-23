@@ -117,14 +117,24 @@
 # vowel(st)
 
 # QUE3 WAP TO PRINT UPPERCASE INTO LOWERCASE OF STRING USING FUNCTION
-def lower(st):
-    for i in st:
-        if i>='A' and i<='Z':
-            print(chr(ord(i)+32),end='')
-        else:
-            print(i,end='')
-st=input("Enter any string:")
-lower(st)
+# def lower(st):
+#     for i in st:
+#         if i>='A' and i<='Z':
+#             print(chr(ord(i)+32),end='')
+#         else:
+#             print(i,end='')
+# st=input("Enter any string:")
+# lower(st)
+
+# lower to upper
+# def upper(st):
+#     for i in st:
+#         if i>='a' and i<='z':
+#             print(chr(ord(i)-32),end='')
+#         else:
+#             print(i,end='')
+# st=input("Enter any string:")
+# upper(st)
 
 # Que4. WAP TO RETURN THE LARGEST NUMBER FROM A TUPLE BY USIND FUNCTION
 # def small(tu):
@@ -164,6 +174,9 @@ lower(st)
 # tu=tuple(map(int,input("enter any tuple").split(',')))
 # print(tu)
 # larg(tu)
+
+
+# Q6. CONVERT UPPER TO LOWER AND LOWER TO UPPER IN A STRING
 
         
 
